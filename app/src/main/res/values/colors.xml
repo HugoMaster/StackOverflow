@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#ffABABAB</color>
+
+    <color name="refresh_1">#ffff8000</color>
+    <color name="refresh_2">#ff1d107a</color>
+    <color name="refresh_3">#ff00cc00</color>
+    <color name="refresh_4">#ff751919</color>
+</resources>

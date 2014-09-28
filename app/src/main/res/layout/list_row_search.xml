@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ownerImage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@android:drawable/sym_def_app_icon"
+        android:layout_margin="@dimen/standard_margin"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/standard_margin">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ownerName"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Name"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@+id/questionAnswers"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/questionAnswers"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Answers: 125"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/questionTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:text="Title"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/standard_margin"/>
+
+    </LinearLayout>
+
+</LinearLayout>

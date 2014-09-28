@@ -66,7 +66,6 @@ public class MainFragment extends Fragment implements View.OnClickListener, Adap
                 getResources().getColor(R.color.refresh_2),
                 getResources().getColor(R.color.refresh_3),
                 getResources().getColor(R.color.refresh_4));
-        searchEditText.clearFocus();
     }
 
     private void initListeners() {
